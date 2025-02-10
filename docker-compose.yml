@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  recon-postgres:
+    image: postgres:13
+    container_name: spark-postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 12345
+      POSTGRES_DB: sparkdb
+    ports:
+      - "5430:5430"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data: 

@@ -41,3 +41,4 @@ logs/**logs/
 **/logs/
 **logs/
 *.p12
+data

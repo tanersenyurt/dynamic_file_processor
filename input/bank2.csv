@@ -1,0 +1,2 @@
+transaction_id,acc_num,transaction_amount,currency_code,value_date,narrative
+TRX123,9876543210,111.54,EUR,14/03/2024,Transfer from John

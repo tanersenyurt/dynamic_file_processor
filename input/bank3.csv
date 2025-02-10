@@ -1,0 +1,2 @@
+transaction_reference;account_id;transaction_value;currency;transaction_datetime;notes
+TXN789;5555666677;1.234,56;EUR;14-03-2024 15:30:45;Payment for services

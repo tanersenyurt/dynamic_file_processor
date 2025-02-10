@@ -1,0 +1,2 @@
+ref,account,amount,curr,date,desc
+TX001,1234567890,"1,234.56",USD,2024-03-14 10:30:00,Payment received
