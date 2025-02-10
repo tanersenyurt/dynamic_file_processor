@@ -32,8 +32,17 @@
    git clone https://github.com/your-repo/dynamic_file_processor.git
    cd dynamic_file_processor
 
+### Input files
+[inputs](input)
 
 ### Bank Configuration
 Bank configurations are stored in the bank_configs table. You can initialize the configurations using the DataInitializer class.  
+![bank_config.png](assets/bank_config.png)
+
 ### CSV Field Mappings
 Field mappings for CSV files are stored in the csv_field_mappings table. These mappings define how CSV columns are mapped to the Transaction entity fields.
+![csv_mapping.png](assets/csv_mapping.png)
+
+### Transaction Table
+Converted result saved into table , with modification like lpad(15,'0') applied to transaction_id column 
+![transaction.png](assets/transaction.png)
